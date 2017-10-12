@@ -1,0 +1,10 @@
+c:\Users\FIC\Desktop\BackA\Week_2\FileManagement\bin\Debug\netcoreapp2.0\FileManagement.deps.json
+c:\Users\FIC\Desktop\BackA\Week_2\FileManagement\bin\Debug\netcoreapp2.0\FileManagement.runtimeconfig.json
+c:\Users\FIC\Desktop\BackA\Week_2\FileManagement\bin\Debug\netcoreapp2.0\FileManagement.runtimeconfig.dev.json
+c:\Users\FIC\Desktop\BackA\Week_2\FileManagement\bin\Debug\netcoreapp2.0\FileManagement.dll
+c:\Users\FIC\Desktop\BackA\Week_2\FileManagement\bin\Debug\netcoreapp2.0\FileManagement.pdb
+c:\Users\FIC\Desktop\BackA\Week_2\FileManagement\obj\Debug\netcoreapp2.0\FileManagement.csproj.CoreCompileInputs.cache
+c:\Users\FIC\Desktop\BackA\Week_2\FileManagement\obj\Debug\netcoreapp2.0\FileManagement.AssemblyInfoInputs.cache
+c:\Users\FIC\Desktop\BackA\Week_2\FileManagement\obj\Debug\netcoreapp2.0\FileManagement.AssemblyInfo.cs
+c:\Users\FIC\Desktop\BackA\Week_2\FileManagement\obj\Debug\netcoreapp2.0\FileManagement.dll
+c:\Users\FIC\Desktop\BackA\Week_2\FileManagement\obj\Debug\netcoreapp2.0\FileManagement.pdb
