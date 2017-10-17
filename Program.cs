@@ -14,21 +14,22 @@ namespace FileManagement
             Console.Clear();
             Console.WriteLine("Bem vindo!\n\n");
             do{
-                Console.WriteLine("\n\nEscolha uma das opções abaixo\n1 - Listar Perguntas\n2 - Adicionar Perguntas\n3 - Realizar Cadastro\n4 - Encerrar");
+                Console.WriteLine("\n\nEscolha uma das opções abaixo\n1 - Listar Perguntas\n2 - Adicionar Perguntas\n3 - Realizar Cadastro\n4 - Listas Cadastros\n5- Encerrar");
                 do
                 {
 
                     op2 = Console.ReadLine();
-                } while (op2!="1" && op2!="2" && op2!="3" && op2!="4");
+                } while (op2!="1" && op2!="2" && op2!="3" && op2!="4" && op2!="5");
                 switch (op2)
                 {
                     case "1":ListarPerguntas();break;
                     case "2":AdicionarPerguntas();break;
                     case "3":Cadastro();break;
-                    case "4":Environment.Exit(0);break;
+                    case "4":ListarRespostas();break;
+                    case "5":Environment.Exit(0);break;
                 }
 
-            } while (op2!="4");
+            } while (op2!="5");
         }
         static void Cadastro()
         {
@@ -90,6 +91,21 @@ namespace FileManagement
                 sp.WriteLine();
             }
             sp.Close();
+        }
+        static void ListarRespostas()
+        {
+            string[] respostaslinha;
+            perguntas = File.ReadAllLines("perguntas.txt");
+            respostas = File.ReadAllLines("respostas.csv");
+            for(int i=0; i<respostas.Length; i++)
+            {
+                respostaslinha = respostas[i].Split(';');
+                for(int e=0; e<perguntas.Length; e++)
+                {
+                    Console.WriteLine(perguntas[e]+": "+respostaslinha[e]);
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
